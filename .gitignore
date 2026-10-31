@@ -1,0 +1,4 @@
+# Course dataset (too large for GitHub); copy it into data/ locally
+data/*.csv
+__pycache__/
+.DS_Store
