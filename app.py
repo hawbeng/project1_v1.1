@@ -655,5 +655,3 @@ with quality_tab:
         f"Views and applications are only used for adverts first posted by {WINDOW_LABEL}. "
         "Review these counts before using the charts in a decision."
     )
-    st.subheader("Preview")
-    st.dataframe(filtered.drop(columns=["category_list"]).head(100), **STRETCH)
